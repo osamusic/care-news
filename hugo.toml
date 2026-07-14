@@ -1,0 +1,33 @@
+baseURL = "https://osamusic.github.io/care-news/"
+languageCode = "ja"
+title = "Yorisoi Daily"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+
+[params]
+  author = "osamusic"
+  description = "認知症のケア・介護・医療・制度の情報を毎日自動収集してお届けします。"
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.homeInfoParams]
+    Title = "Yorisoi Daily — よりそいデイリー"
+    Content = "認知症とともに歩むご家族・ケアに携わる方へ。ケアの工夫・新薬や研究・介護保険や制度・サービスの情報を毎日自動収集してお届けします。"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
+[menu]
+  [[menu.main]]
+    name = "アーカイブ"
+    url = "/archives/"
+    weight = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

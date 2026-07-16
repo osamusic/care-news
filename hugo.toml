@@ -15,6 +15,16 @@ buildDrafts = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
+  [params.assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    apple_touch_icon = "apple-touch-icon.png"
+
+  [params.label]
+    icon = "icon-64.png"
+    iconHeight = 30
+
   [params.homeInfoParams]
     Title = "Yorisoi Daily — よりそいデイリー"
     Content = "認知症とともに歩むご家族・ケアに携わる方へ。ケアの工夫・新薬や研究・介護保険や制度・サービスの情報を毎日自動収集してお届けします。"

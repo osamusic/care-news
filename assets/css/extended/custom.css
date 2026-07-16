@@ -111,3 +111,8 @@
 .paginav .title {
   color: var(--primary);
 }
+
+/* ヘッダー: ロゴアイコンを丸く */
+.header .logo a img {
+  border-radius: 50%;
+}

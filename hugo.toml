@@ -27,7 +27,7 @@ buildDrafts = false
 
   [params.homeInfoParams]
     Title = "Yorisoi Daily — よりそいデイリー"
-    Content = "認知症とともに歩むご家族・ケアに携わる方へ。ケアの工夫・新薬や研究・介護保険や制度・サービスの情報を毎日自動収集してお届けします。"
+    Content = "認知症とともに歩むご家族・ケアに携わる方へ。ケアの工夫・新薬や研究・介護保険や制度・サービスの情報を毎日自動収集してお届けします。記事は [note](https://note.com/yorisoi_daily) にも掲載しています。"
 
   [[params.socialIcons]]
     name = "rss"
@@ -38,6 +38,10 @@ buildDrafts = false
     name = "アーカイブ"
     url = "/archives/"
     weight = 10
+  [[menu.main]]
+    name = "note ↗"
+    url = "https://note.com/yorisoi_daily"
+    weight = 20
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

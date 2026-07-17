@@ -112,6 +112,29 @@
   color: var(--primary);
 }
 
+/* 記事末尾: よりそいナレッジへの誘導ボックス */
+.knowledge-link {
+  margin: 24px 0;
+  padding: 16px 20px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.knowledge-link-title {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.knowledge-link a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
 /* ヘッダー: ロゴアイコンを丸く */
 .header .logo a img {
   border-radius: 50%;

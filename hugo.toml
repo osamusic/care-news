@@ -2,12 +2,14 @@ baseURL = "https://yorisoi-news.osamusic.org/"
 languageCode = "ja"
 defaultContentLanguage = "ja"
 disableHugoGeneratorInject = true
+hasCJKLanguage = true
 title = "Yorisoi Daily"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
 
 [params]
+  images = ["og-image.jpg"]
   author = "osamusic"
   description = "認知症のケア・介護・医療・制度の情報を毎日自動収集してお届けします。"
   defaultTheme = "auto"

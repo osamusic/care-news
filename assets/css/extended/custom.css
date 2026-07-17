@@ -66,6 +66,11 @@
   color: var(--primary);
 }
 
+/* 記事ページ: description は本文の導入文と同一のため非表示（meta/OGP用にのみ使う） */
+.post-header .post-description {
+  display: none;
+}
+
 /* 記事ページ: メタ情報（日付など） */
 .post-meta {
   color: var(--secondary);

@@ -145,3 +145,44 @@
 .header .logo a img {
   border-radius: 50%;
 }
+
+/* 記事末尾: 「役に立った」ボタン */
+.like-box {
+  margin: 24px 0 8px;
+  padding: 16px 20px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.like-question {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.like-btn {
+  padding: 8px 22px;
+  background: var(--entry);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.like-btn:hover:not(:disabled) {
+  background: var(--primary);
+  color: #fff;
+}
+
+.like-btn:disabled {
+  cursor: default;
+}
+
+.like-thanks {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--secondary);
+}

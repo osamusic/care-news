@@ -1,5 +1,6 @@
 baseURL = "https://yorisoi-news.osamusic.org/"
 languageCode = "ja"
+defaultContentLanguage = "ja"
 title = "Yorisoi Daily"
 theme = "PaperMod"
 enableRobotsTXT = true

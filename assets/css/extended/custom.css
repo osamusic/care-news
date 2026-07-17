@@ -1,7 +1,8 @@
 /* カラーテーマ: よりそいオレンジ (認知症支援のシンボルカラー) */
 :root {
-  --primary: #d2691e;
-  --secondary: #e8935a;
+  /* WCAG AA: primary 4.7:1以上・secondary 4.9:1以上 (対 --theme / --code-bg) */
+  --primary: #a8530f;
+  --secondary: #9a5730;
   --theme: #fdf8f2;
   --entry: #ffffff;
   --border: #f0dcc8;
